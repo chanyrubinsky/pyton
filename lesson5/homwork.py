@@ -14,11 +14,11 @@ def deleteFolder():
 # deleteFolder()
 
 
-def create_file(link , f):
+def create_file(link, f):
     file = os.path.join(link, f)
     os.makedirs(link, exist_ok=True)
     with open(file, 'w') as f:
         f.write("")
 
 
-create_file('Z:\יד תשפו\רובינסקי חנה\piton\pyton\lesson5','file.txt')
+create_file('Z:\יד תשפו\רובינסקי חנה\piton\pyton\lesson5', 'file.txt')
